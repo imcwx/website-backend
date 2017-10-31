@@ -1,0 +1,58 @@
+/*a {
+	color:red;
+}*/
+
+html {
+	height: 100%;
+	/*background-color: black;*/
+	margin: 0%;
+
+}
+
+body {
+	height: 100%;
+	padding-top: 0%;
+	margin: 0;
+	background-image: url('../image/huangshan_sunset.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-size: contain;*/
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: 400;
+}
+
+.sidebar{
+	display: inline-block;
+	text-align: center;
+	background-color: gray;
+	width: 22%;
+	height: 100%;
+	/*font-family: "Calibri";*/
+}
+
+.sidebar ul {
+	padding-left: 0;
+}
+
+.sidebar a {
+	color: white;
+	text-decoration: none;
+}
+
+.sidebar li {
+	list-style-type: none;
+	margin: 10px;
+}
+
+.content {
+	width: 78%;
+	float: right;
+	text-align: center;
+	display: inline-block;
+	/*font-family: "Calibri";*/
+}
+
+.content h2 {
+	padding-top: 220px;
+	color: white;
+}
